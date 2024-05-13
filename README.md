@@ -12,7 +12,7 @@ The turning point came in 2021. In March, I was laid off. Yes, because of the CO
 
 Then, after June 2022, I started working on the gameFi project and upgraded to another version.
 
-The Js component of this IndexedDB can be deeply bound to routing and is applicable to all front-end frameworks currently on the market.
+The Js component of this IndexedDB can be deeply bound to routing and is applicable to all front-end frameworks currently in present days.
 
 # Principle
 
@@ -25,7 +25,7 @@ The Controller File is '$indexedDB.js', I have explained everything;
 
 import '$indexedDB' from '$indexedDB';
 
-    if you want store / update a json file to you indexedDB:
+    if you want store / update a json file to your indexedDB:
     $indexedDB.set('constantApp', 'json.key', 'json.name', json.data, (cb)=>{
        // constantApp is table name
        // json.key is a route name,
@@ -34,7 +34,7 @@ import '$indexedDB' from '$indexedDB';
        // cb is an Optional 
     });
 
-    if you want get a json file to you indexedDB:
+    if you want get a json file to your indexedDB:
     $indexedDB.get('constantApp', 'json.key', 'json.name', (cb)=>{
         // constantApp is table name
         // json.key is a route name,
@@ -43,7 +43,7 @@ import '$indexedDB' from '$indexedDB';
         // cb is an Optional
     });
 
-    if you want delete a json file to you indexedDB:
+    if you want delete a json file to your indexedDB:
     $indexedDB.delete('constantApp', 'json.key', 'json.name', (cb)=>{
        // constantApp is table name
        // json.key is a route name,
@@ -51,14 +51,14 @@ import '$indexedDB' from '$indexedDB';
        // cb is an Optional 
     });
 
-    if you want delete a route to you indexedDB:
+    if you want delete a route to your indexedDB:
     $indexedDB.delete('constantApp', 'json.key', (cb)=>{
         // constantApp is table name
         // json.key is a route name,
         // cb is an Optional
     });
 
-    if you want delete a table to you indexedDB:
+    if you want delete a table to your indexedDB:
     $indexedDB.delete('constantApp', (cb)=>{
     // constantApp is table name
     // cb is an Optional
